@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: hiitsom-basic-security.jar 
+ hiitsom-basic-mybatis.jar
+

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: hiitsom-main
+Implementation-Version: 3.0.0
+Built-By: Dell
+Implementation-Vendor-Id: com.hisense.itsom
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/hiitsom-main
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
