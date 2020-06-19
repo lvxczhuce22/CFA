@@ -30,14 +30,12 @@ public class HiitsomApplication {
         String port = env.getProperty("server.port");
         // W.K.->JDK1.8 server.servlet.context-path下边是1.7
         String path = env.getProperty("server.context-path");
-        log.info("\n----------------------------------------------------------\n\t" +
-                "Application HIITSOM is running! Access URLs:\n\t" +
-                "Local: \t\thttp://localhostsss:" + port + path + "/\n\t" +
+        log.info("\n----------------------------------------------------------\n\t" 
                 "External: \thttp://" + ip + ":" + port + path + "/\n\t" +
                 "swagger-ui: \thttp://" + ip + ":" + port + path + "/swagger-ui.html\n\t" +
                 "Doc: \t\thttp://" + ip + ":" + port + path + "/doc.html\n" +
                 "----------------------------------------------------------");
-        
+
 	}
 	
 	
